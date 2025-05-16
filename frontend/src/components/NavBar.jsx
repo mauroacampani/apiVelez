@@ -55,7 +55,7 @@ function NavBar() {
               </NavLink>
               <NavLink
                 className={({ isActive }) => (isActive ? activeLink : btnLink)}
-                to="/estadisticas"
+                to="/tablas"
               >
                 Estadisticas
               </NavLink>

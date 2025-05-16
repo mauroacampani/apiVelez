@@ -1,5 +1,7 @@
 import NavBar from "./components/NavBar";
 import Layaut from "./components/layaut";
+import Tabla from "./pages/Tabla";
+
 import { Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/index";
 // import Estadisticas from "./pages/Estadisticas";
@@ -12,15 +14,11 @@ function App() {
         <NavBar></NavBar>
         <Layaut>
           <Routes>
-            <Route path="/" element={<Index></Index>}></Route>
+            <Route path="/" element={<Tabla></Tabla>}></Route>
 
-            {/* <Route
-              path="/estadisticas"
-              element={<Estadisticas></Estadisticas>}
-            ></Route> */}
+            {/* <Route path="/tablas" element={<Tabla></Tabla>}></Route> */}
             <Route path="*" element={<Navigate to="/"></Navigate>}></Route>
           </Routes>
-          <Index></Index>
         </Layaut>
       </div>
     </>

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #243c5a;
+  --color-secondary: #212529;
+  --color-tahiti: #3ab7bf;
+}
+
+@layer Base {
+  p {
+    @apply mb-3;
+  }
+}
+
+/* body {
+  color: rgb(0, 112, 164);
+} */
+
+/* header {
+  height: 80px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+/* header.header-scrolled {
+  background: rgba(0, 0, 0, 0.8);
+  height: 64px;
+} */
+
+/* Navbar.css */
+/* .navbar {
+  height: 80px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar.scrolled {
+  background: rgba(0, 0, 0, 0.8);
+  height: 64px;
+} */

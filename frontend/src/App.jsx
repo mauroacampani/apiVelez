@@ -4,6 +4,7 @@ import Tabla from "./pages/Tabla";
 
 import { Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/index";
+import Resultados from "./pages/resultados";
 // import Estadisticas from "./pages/Estadisticas";
 
 function App() {
@@ -15,6 +16,10 @@ function App() {
         <Layaut>
           <Routes>
             <Route path="/" element={<Tabla></Tabla>}></Route>
+            <Route
+              path="/resultados"
+              element={<Resultados></Resultados>}
+            ></Route>
 
             {/* <Route path="/tablas" element={<Tabla></Tabla>}></Route> */}
             <Route path="*" element={<Navigate to="/"></Navigate>}></Route>

@@ -5,8 +5,9 @@ export async function getTabla() {
   return data;
 }
 
-// export async function getResultados() {
-//   const res = await fetch("http://localhost:8000/futbol/resultados");
-//   const data = await res.json();
-//   return data;
-// }
+export async function getResultados() {
+  const res = await fetch("http://localhost:8000/futbol/resultados");
+  const data = await res.json();
+
+  return data;
+}

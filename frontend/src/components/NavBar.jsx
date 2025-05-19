@@ -59,6 +59,13 @@ function NavBar() {
               >
                 Estadisticas
               </NavLink>
+
+              <NavLink
+                className={({ isActive }) => (isActive ? activeLink : btnLink)}
+                to="/resultados"
+              >
+                Resultados
+              </NavLink>
             </nav>
           </div>
 
